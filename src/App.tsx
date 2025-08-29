@@ -8,14 +8,14 @@ import { Input } from "./components/Input"
 import { Button } from "./components/Button"
 import { Letter } from "./components/Letter"
 import { Header } from "./components/Header"
-import { LettersUsed, LetterUsedProps } from "./components/LettersUsed"
+import { LettersUsed, LettersUsedProps } from "./components/LettersUsed"
 
 const ATTEMPT_MARGIN = 5
 
 export default function App() {
   const [score, setScore] = useState(0)
   const [letter, setLetter] = useState("")
-  const [lettersUsed, setLettersUsed] = useState<LetterUsedProps[]>([])
+  const [lettersUsed, setLettersUsed] = useState<LettersUsedProps[]>([])
   const [challenge, setChallenge ] = useState<Challenge | null>(null)
 
   function handleRestartGame(){
