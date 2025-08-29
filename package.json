@@ -1,5 +1,6 @@
 {
   "name": "guessingame",
+  "homepage": "https://arturbnardo.github.io/guessing-game",
   "private": true,
   "version": "0.0.0",
   "type": "module",
